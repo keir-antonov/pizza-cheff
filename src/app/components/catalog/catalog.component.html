@@ -1,0 +1,9 @@
+<section id="catalog" class="catalog container">
+    <h2>Выберите свою любимую пиццу</h2>
+
+    <div class="catalog-grid">
+        @for (pizza of pizzas(); track pizza.id) {
+        <app-pizza-card [pizza]="pizza" (openImage)="onOpenImage($event)" />
+        }
+    </div>
+</section>

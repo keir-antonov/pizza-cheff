@@ -1,0 +1,9 @@
+<app-header />
+
+<main>
+    <app-hero />
+
+    <app-catalog [pizzas]="pizzas()" (openImage)="openImage($event)" />
+
+    <app-order-section [orderForm]="orderForm" [isSubmitting]="isSubmitting()" (submitOrder)="submitOrder()" />
+</main>

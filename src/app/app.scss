@@ -1,0 +1,47 @@
+:host {
+    --bg: #f8f8f8;
+    --surface: #ffffff;
+    --text: #2f2f2f;
+    --muted: #686868;
+    --accent: #e7a43a;
+    --accent-dark: #b48745;
+    --border: #ececec;
+
+    display: block;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.container {
+    width: min(1120px, calc(100% - 32px));
+    margin-inline: auto;
+}
+
+main {
+    display: block;
+}
+
+:host {
+    --bg: #f8f8f8;
+    --surface: #ffffff;
+    --text: #2f2f2f;
+    --muted: #686868;
+    --accent: #e7a43a;
+    --accent-dark: #b48745;
+    --border: #ececec;
+
+    display: block;
+    min-height: 100vh;
+    background: var(--bg);
+    color: var(--text);
+}
+
+.container {
+    width: min(1120px, calc(100% - 32px));
+    margin-inline: auto;
+}
+
+main {
+    display: block;
+}

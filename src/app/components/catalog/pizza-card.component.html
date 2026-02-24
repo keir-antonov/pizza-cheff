@@ -1,0 +1,11 @@
+<article class="pizza-card">
+    <button type="button" class="image-button" (click)="onOpenImage()"
+        [attr.aria-label]="'Открыть изображение пиццы ' + pizza().name">
+        <span class="pizza-image-wrap">
+            <img [ngSrc]="pizza().image" fill [alt]="pizza().name">
+        </span>
+    </button>
+    <h3>{{ pizza().name }}</h3>
+    <p>{{ pizza().description }}</p>
+    <button type="button" class="btn-secondary">В корзину</button>
+</article>

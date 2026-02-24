@@ -1,0 +1,31 @@
+.success-dialog {
+    padding: 24px;
+    text-align: center;
+    display: grid;
+    gap: 10px;
+}
+
+h2 {
+    margin: 0;
+    color: #b88c50;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 1.15;
+}
+
+p {
+    margin: 0;
+    color: #5a4e45;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+button {
+    justify-self: center;
+    margin-top: 8px;
+    padding: 10px 22px;
+    border-radius: 2px;
+    background: #f3af43;
+    color: #1a1209;
+    font-weight: 700;
+}
